@@ -29,7 +29,7 @@ $(document).ready(function(){
         $("img").remove(".smallView");
         $("#collapse").css('visibility', 'visible');
          
-      //  $(".bottom").before('<img id="collapse" class="bigView" src="img/collapseSmall.png"/>');
+      
       
         $(".bottom").before('<img id="backDrop" class="bigView" src="img/backDrop.png"/>');
         $('#backDrop').css('visibility', 'visible').animate({opacity: 1.0}, 1000); 
