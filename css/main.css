@@ -8,7 +8,7 @@ body {
 	background: white;
 	width: 100%;
 	height: 550px;
-	-moz-transform: translate(0%, -18%);
+	-moz-transform: translate(0%, -23%);
 	-ms-transform: translate(0%, -14.5%);
 }
 
@@ -16,14 +16,14 @@ body {
 	position: relative;
 	top: 47px;
 	margin: 0 auto;
-	width: 85%; 
+	width: 88%;
 	height: 450px;
-	background:  #000000;	
+	background:  #000000;
 	overflow: hidden;
 }
 
 #innerFrame:hover {
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 #bigWave, #wakeUp, #alive, #nixon, #backDrop, #logo {
@@ -44,22 +44,22 @@ body {
 
 #wakeUp {
 	width: 1800px;
-	-moz-transform: translate(-12%, -6%);
 	-webkit-transform: translate(-4%, -6%);
 	-ms-transform: translate(-13%, -10%);
+	-moz-transform: translate(-11%, -6%);
 }
 
 #alive {
-	-moz-transform: translate(-13%, -8%);
 	-webkit-transform: translate(-7%, -9%);
 	-ms-transform: translate(-12%, -8%);
+	-moz-transform: translate(-12%, -8%);
 }
 
 #nixon {
 	width: 1600px;
-	-moz-transform: translate(-9%, -8%);
 	-webkit-transform: translate(4%, -9%);
 	-ms-transform: translate(-9%, -8%);
+	-moz-transform: translate(-5%, -8%);
 }
 
 #backDrop, #watch {
@@ -76,9 +76,9 @@ body {
 	width: 1800px;
 	visibility: hidden;
 	opacity: 0;
-	-moz-transform: translate(-13%, 0%);
 	-webkit-transform: translate(-8%, 0%);
 	-ms-transform: translate(-13%, 0%);
+	-moz-transform: translate(-12%, 0%);
 }
 
 #diplo {
@@ -86,9 +86,9 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	width: 1950px;
-	-moz-transform: translate(-20%, -98%);
 	-webkit-transform: translate(-13%, -98%);
 	-ms-transform: translate(-20%, -98%);
+	-moz-transform: translate(-18%, -98%);
 }
 
 #shop {
@@ -96,13 +96,9 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	width: 2000px;
-	/*-moz-transform: translate(-21%, -100%);
-	-webkit-transform: translate(-14.2%, -100%);
-	-ms-transform: translate(-20.9%, -100%);*/
-	
-	-moz-transform: translate(-21%, -200%);
 	-webkit-transform: translate(-14.2%, -200%);
 	-ms-transform: translate(-20.9%, -200%);
+	-moz-transform: translate(-19%, -200%);
 }
 
 #logo {
@@ -110,21 +106,17 @@ body {
 	visibility: hidden;
 	opacity: 0;
 	width: 1600px;
-	/*-moz-transform: translate(-9%, -121%);
-	-webkit-transform: translate(4%, -123%);
-	-ms-transform: translate(-9%, -121%);*/
-	
-	-moz-transform: translate(-9%, -371%);
 	-webkit-transform: translate(4%, -371%);
 	-ms-transform: translate(-9%, -371%);
+	-moz-transform: translate(-5%, -371%);
 }
 
 
 #collapse {
 	position: absolute;
-	-moz-transform: translate(1321%, 25%);
-	-webkit-transform: translate(1681%, 14%);
+	-webkit-transform: translate(1745%, 25%);
 	-ms-transform: translate(1300%, 15%);
+	-moz-transform: translate(1365%, 15%);
 	width: 90px;
 	z-index: 1;
 }
@@ -132,7 +124,7 @@ body {
 
 #collapse:hover {
 	border-bottom: 2px solid white;
-	-moz-transform: translate(1321%, 23%);
+	-moz-transform: translate(1365%, 13.5%);
 	-ms-transform: translate(1300%, 12%);
 }
 
@@ -140,23 +132,20 @@ body {
 	position: relative;
 	top: -85px;
 	width: 80px;
-	-moz-transform: translate(1502%, 19%);
-	-webkit-transform: translate(1908%, -88%);
+	-webkit-transform: translate(1976%, -94%);
 	-ms-transform: translate(1478%, 19%);
+	-moz-transform: translate(1535%, -9%);
 	/*visibility: hidden;*/
 }
 
 #expand:hover {
 	border-bottom: 2px solid white;
-	-moz-transform: translate(1502%, 19%);
-	-webkit-transform: translate(1908%, -82%);
+	-webkit-transform: translate(1976%, -88%);
 	-ms-transform: translate(1478%, 19%);
-	
+	-moz-transform: translate(1535%, -8.5%);
+
 }
 
 .smallView {
 	width: 100%
 }
-
-
-
