@@ -17,6 +17,7 @@ body {
 	background: white;
 	width: 100%;
 	height: 425px;
+	-webkit-transform: translate(0%, -12%);
 	-ms-transform: translate(0%, 5%);
 }
 
